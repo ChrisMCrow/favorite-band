@@ -22,3 +22,7 @@ body {
 .ringo {
   background-color: #e6e600;
 }
+
+.bold {
+  font-weight: bold;
+}
