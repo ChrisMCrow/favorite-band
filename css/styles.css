@@ -7,8 +7,14 @@ body {
   list-style-type: none;
   background-color: #e6e600;
   font-size: 20px;
+  border: 2px solid green;
+  padding-right: 35px;
+  margin: 20px;
 }
 
+li{
+  list-style-type: none;
+}
 .leftfloat{
   float:left;
   width: 190PX;
@@ -21,8 +27,15 @@ body {
 
 .ringo {
   background-color: #e6e600;
+  border: 2px solid green;
+  padding-left: 20px;
+  margin: 20px;
 }
 
 .bold {
   font-weight: bold;
+}
+
+img{
+  padding: 2px;
 }
