@@ -3,7 +3,6 @@ body {
 }
 
 .sidebar{
-  float: right;
   list-style-type: none;
   background-color: #e6e600;
   font-size: 20px;
@@ -38,4 +37,26 @@ li{
 
 img{
   padding: 2px;
+}
+
+@media screen and (min-width: 1001px) {
+  .sidebar {
+    float: right;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+  body {
+    background-color: #80ffff;
+  }
+  .ringo {
+    background-color: #ff6600;
+  }
+  .sidebar {
+    background-color: #ff6600;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #ff66d9
+  }
 }
